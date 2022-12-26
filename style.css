@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    padding: 10px 70px 40px 70px;
+    margin: 0%;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    color: white;
+    margin-bottom: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.header-content {
+    display: flex;
+    gap: 15px;
+}
+.header-content-img{
+    min-width: 50%;
+    background-color: rgba(240, 255, 255, 0.404);    
+}
+.header-content-img p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+}
+
+.header-content-text h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 13px;
+    border-radius: 7px;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 30px;
+}
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.box {
+flex: 0 1 200px;
+}
+
+.box img{
+   
+    border: 3px solid rgb(44, 35, 218);
+    border-radius: 15px;
+    min-width: 200px;
+    min-height: 200px;
+}
+.box p {
+    text-align: center;
+    
+}
+
+.quote {
+    background-color: rgb(218, 218, 218);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote p {
+    width: 65%;
+    font-size:large;   
+    line-height: 1.5rem;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.quote h6 {
+    text-align: right;
+    width: 65%;
+    font-size: medium;
+    margin: 0px;
+    padding: 0px;
+}
+.call-to-action {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action-box {
+    height: 100px;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    
+}
+.action-box button{
+    color: white;
+    background-color: #3882f6;
+    border: 1px solid ghostwhite;
+    border-radius: 5px;
+    min-width: 70px;
+    padding: 5px 10px;
+}
+.action-header {
+    font-size: medium;
+    margin: 0px;
+}
+.call-to-action-text p{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+background-color: #1f2937;
+color: white;
+text-align: center;
+min-height: 50px;
+line-height: 50px;
+padding: 5px;
+}
